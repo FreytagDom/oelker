@@ -15,6 +15,7 @@ body {
    display: block;
     @media only screen and (min-device-width: 480px){
     gap: 4rem;
+    background-color: beige;
     
 }
 @media (max-width: 600px) {
