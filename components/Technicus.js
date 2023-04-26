@@ -71,12 +71,10 @@ const LinkWrapper = styled(Link)`
 `;
 
 const TechnicusWrapper = styled.div`
-  margin: 50px 0;
+  margin: 1rem;
   display: grid;
   align-items: center;
   width: 100%;
-  gap: 40px;
-  padding: 0 150px;
 
   @media (max-width: 500px) {
     .TechnicusWrapper {

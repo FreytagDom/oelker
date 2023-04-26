@@ -3,7 +3,7 @@ import styled from "styled-components";
 export default function Header() {
   return (
     <header>
-      <Headline>Karl-Christian-Oelker</Headline>
+      <Headline>Karl-Christian Oelker</Headline>
     </header>
   );
 }
