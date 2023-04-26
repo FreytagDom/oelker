@@ -3,6 +3,7 @@ import { createGlobalStyle } from "styled-components";
 export const GlobalStyle = createGlobalStyle`
 *,*::after, *::before {
     box-sizing:border-box;
+  
    
 }
 main {
@@ -12,10 +13,11 @@ body {
     margin: 0;
     padding: 1rem;
     padding-right: 2rem;
+    background: linear-gradient(to bottom, white, aqua) ;
    display: block;
     @media only screen and (min-device-width: 480px){
     gap: 4rem;
-    background-color: beige;
+    
     
 }
 @media (max-width: 600px) {

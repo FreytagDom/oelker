@@ -1,5 +1,3 @@
-// import Image from "next/image";
-import Link from "next/link";
 import styled from "styled-components";
 import Vita from "./Vita";
 import Klopfzeichen from "./Klopfzeichen";
@@ -9,24 +7,31 @@ import Technicus from "./Technicus";
 export default function Homepage() {
   return (
     <>
-      <Text>
-        Lieber Besucher, ich lade Sie ein den Kosmos meiner Gedanken zu
-        betreten. Sie fragen sich, was Sie finden werden? Etwas kann ich
-        verraten: Gedichte und schöne Bilder. Gedanken über die Zukunft und
-        Erkenntnisse aus der Gegenwart. Erstaunliches und ganz Banales. Etwas
-        Romantik, etwas Sehnsucht und immer wieder ein Nachdenken über den
-        eigenen Weg zum Glück und zur Selbsterkenntnis.
-      </Text>
-      <VitaWrapper>
-        <Vita />
-      </VitaWrapper>
-      <H3>Meine Bücher</H3>
-
-      <Section>
-        <Lebenslinien />
-        <Klopfzeichen />
-        <Technicus />
-      </Section>
+      <Wrapper>
+        <Text>
+          Lieber Besucher, ich lade Sie ein den Kosmos meiner Gedanken zu
+          betreten. Sie fragen sich, was Sie finden werden? Etwas kann ich
+          verraten: Gedichte und schöne Bilder. Gedanken über die Zukunft und
+          Erkenntnisse aus der Gegenwart. Erstaunliches und ganz Banales. Etwas
+          Romantik, etwas Sehnsucht und immer wieder ein Nachdenken über den
+          eigenen Weg zum Glück und zur Selbsterkenntnis.
+        </Text>
+        <VitaWrapper>
+          <Vita />
+        </VitaWrapper>
+        <H3>Meine Bücher</H3>
+        <Veröffentlichungen>
+          Veröffentlichungen:
+          <br /> Kanon der Literatur 2014 - ISBN 9783932443299 <br />
+          Klopfzeichen 2020 - ISBN 9783750426559 <br />
+          Homo Technicus 2022 - ISBN-13: 9783756295265
+        </Veröffentlichungen>
+        <Section>
+          <Lebenslinien />
+          <Klopfzeichen />
+          <Technicus />
+        </Section>
+      </Wrapper>
     </>
   );
 }
@@ -65,4 +70,12 @@ const VitaWrapper = styled.section`
   border-right: 0.4rem solid;
   border-radius: 2rem;
   border-color: grey;
+`;
+
+const Wrapper = styled.span`
+  display: grid;
+`;
+
+const Veröffentlichungen = styled(Text)`
+  text-align: center;
 `;

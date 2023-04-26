@@ -39,7 +39,7 @@ export default function Klopfzeichen() {
 const Text = styled.p`
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   color: darkblue;
-  font-size: 1rem;
+  font-size: 0.9rem;
   margin-left: 2rem;
   margin-right: 2rem;
 `;
@@ -65,12 +65,10 @@ const LinkWrapper = styled(Link)`
 `;
 
 const KlopfzeichenWrapper = styled.div`
-  margin: 50px 0;
+  margin: 1rem;
   display: grid;
   align-items: center;
   width: 100%;
-  gap: 40px;
-  padding: 0 150px;
 
   @media (max-width: 500px) {
     .KlopfzeichenWrapper {
