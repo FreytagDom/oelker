@@ -17,8 +17,9 @@ export default function Homepage() {
         Romantik, etwas Sehnsucht und immer wieder ein Nachdenken über den
         eigenen Weg zum Glück und zur Selbsterkenntnis.
       </Text>
-      <Vita />
-
+      <VitaWrapper>
+        <Vita />
+      </VitaWrapper>
       <H3>Meine Bücher</H3>
 
       <Section>
@@ -36,6 +37,7 @@ const Text = styled.p`
   font-size: 0.9rem;
   margin-left: 2rem;
   margin-right: 2rem;
+  padding: 2rem;
 `;
 
 const H3 = styled.h3`
@@ -49,12 +51,13 @@ const H3 = styled.h3`
 `;
 
 const Section = styled.section`
-  color: midnightblue;
-  font-size: 13px;
-  font-family: Georgia, "Times New Roman", Times, serif;
   margin-left: 1rem;
   margin-right: 1rem;
   display: grid;
   grid-area: auto;
   align-items: start;
+`;
+
+const VitaWrapper = styled.section`
+  padding: 2rem;
 `;
