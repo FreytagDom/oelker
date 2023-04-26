@@ -31,16 +31,16 @@ export default function Vita() {
 const Text = styled.p`
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   color: darkblue;
-  font-size: 0.9rem;
+  font-size: 1rem;
   margin-left: 2rem;
   margin-right: 2rem;
 `;
 
 const Infos = styled.h2`
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: rgba(54, 164, 164, 0.811);
+  color: #006b91;
   margin-left: 1rem;
   margin-right: 1rem;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   text-align: center;
 `;

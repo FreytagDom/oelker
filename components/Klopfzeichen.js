@@ -39,7 +39,7 @@ export default function Klopfzeichen() {
 const Text = styled.p`
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   color: darkblue;
-  font-size: 0.9rem;
+  font-size: 1rem;
   margin-left: 2rem;
   margin-right: 2rem;
 `;

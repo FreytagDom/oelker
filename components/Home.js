@@ -34,7 +34,7 @@ export default function Homepage() {
 const Text = styled.p`
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   color: darkblue;
-  font-size: 0.9rem;
+  font-size: 1rem;
   margin-left: 2rem;
   margin-right: 2rem;
   padding: 2rem;
@@ -59,5 +59,10 @@ const Section = styled.section`
 `;
 
 const VitaWrapper = styled.section`
-  padding: 2rem;
+  padding: 1rem;
+  border-bottom: 0.4rem solid;
+  border-left: 0.4rem solid;
+  border-right: 0.4rem solid;
+  border-radius: 2rem;
+  border-color: grey;
 `;
