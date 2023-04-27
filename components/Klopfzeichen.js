@@ -81,20 +81,32 @@ const KlopfzeichenWrapper = styled.div`
 const TextSection = styled.div`
   flex-basis: 70%;
   display: grid;
-  grid-row: 1;
-  grid-column: 1;
+  @media (max-width: 679px) {
+    grid-row: 2;
+    grid-column: 1;
+  }
+  @media (min-width: 680px) {
+    grid-row: 1;
+    grid-column: 1;
+  }
 `;
 
 const CoverSection = styled.div`
   height: 30rem;
   padding: 2rem;
   display: grid;
-  grid-column: 2;
-  grid-row: 1;
   align-content: space-around;
   align-items: center;
   justify-content: center;
   justify-items: center;
+  @media (max-width: 679px) {
+    grid-row: 1;
+    grid-column: 1;
+  }
+  @media (min-width: 680px) {
+    grid-row: 1;
+    grid-column: 2;
+  }
 `;
 
 const BookCover = styled(Image)`
