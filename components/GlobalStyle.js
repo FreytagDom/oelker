@@ -24,5 +24,7 @@ body {
     .grid {
        width: 100%;
        flex-direction: column;
-    }}}
+    }}
+    
+}
 `;

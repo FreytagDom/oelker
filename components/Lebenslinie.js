@@ -76,33 +76,44 @@ const LebenslinienWrapper = styled.div`
   display: grid;
   align-items: center;
   width: 100%;
-
-  @media (max-width: 500px) {
+  @media (min-width: 679px) {
     .LebenslinienWrapper {
       padding: 0 50px;
-      flex-direction: column;
     }
   }
 `;
 
-const TextSection = styled.div`
+const TextSection = styled.span`
   flex-basis: 70%;
   flex-basis: 70%;
   display: grid;
-  grid-row: 1;
-  grid-column: 2;
+  @media (max-width: 679px) {
+    grid-row: 2;
+    grid-column: 1;
+  }
+  @media (min-width: 680px) {
+    grid-row: 1;
+    grid-column: 2;
+  }
 `;
 
 const CoverSection = styled.div`
   height: 30rem;
   padding: 1rem;
   display: grid;
-  grid-column: 1;
-  grid-row: 1;
+  flex-direction: column;
   align-content: space-evenly;
   align-items: center;
   justify-content: center;
   justify-items: center;
+  @media (max-width: 679px) {
+    grid-row: 1;
+    grid-column: 1;
+  }
+  @media (min-width: 680px) {
+    grid-row: 1;
+    grid-column: 1;
+  }
 `;
 
 const BookCover = styled(Image)`
