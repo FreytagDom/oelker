@@ -72,6 +72,7 @@ const LinkWrapper = styled(Link)`
 
 const TechnicusWrapper = styled.div`
   margin: 1rem;
+  padding: 1rem;
   display: grid;
   align-items: center;
   width: 100%;

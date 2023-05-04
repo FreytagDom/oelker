@@ -66,6 +66,7 @@ const LinkWrapper = styled(Link)`
 
 const KlopfzeichenWrapper = styled.div`
   margin: 1rem;
+  padding: 1rem;
   display: grid;
   align-items: center;
   width: 100%;

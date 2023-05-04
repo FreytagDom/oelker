@@ -1,6 +1,7 @@
 import styled from "styled-components";
+import Vita from "../components/Vita";
 
-export default function Homepage() {
+export default function AboutMy() {
   return (
     <>
       <Wrapper>
@@ -12,6 +13,9 @@ export default function Homepage() {
           Romantik, etwas Sehnsucht und immer wieder ein Nachdenken über den
           eigenen Weg zum Glück und zur Selbsterkenntnis.
         </Text>
+        <VitaWrapper>
+          <Vita />
+        </VitaWrapper>
       </Wrapper>
     </>
   );
@@ -24,6 +28,15 @@ const Text = styled.p`
   margin-left: 2rem;
   margin-right: 2rem;
   padding: 2rem;
+`;
+
+const VitaWrapper = styled.section`
+  padding: 1rem;
+  border-bottom: 0.4rem solid;
+  border-left: 0.4rem solid;
+  border-right: 0.4rem solid;
+  border-radius: 2rem;
+  border-color: grey;
 `;
 
 const Wrapper = styled.span`
