@@ -1,4 +1,8 @@
 import styled from "styled-components";
+import Image from "next/image";
+import oelker_leseprobe from "../public/oelker_leseprobe.jpg";
+import oelker_leseprobe1 from "../public/oelker_leseprobe1.jpg";
+import oelker_leseprobe2 from "../public/oelker_leseprobe2.jpg";
 
 export default function Homepage() {
   return (
@@ -12,6 +16,11 @@ export default function Homepage() {
           Romantik, etwas Sehnsucht und immer wieder ein Nachdenken über den
           eigenen Weg zum Glück und zur Selbsterkenntnis.
         </Text>
+        <GemaäldeWrapper>
+          <Gemaälde1 src={oelker_leseprobe} alt="Gemälde" />
+          <Gemaälde2 src={oelker_leseprobe1} alt="Gemälde" />
+          <Gemaälde3 src={oelker_leseprobe2} alt="Gemälde" />
+        </GemaäldeWrapper>
       </Wrapper>
     </>
   );
@@ -29,4 +38,32 @@ const Text = styled.p`
 const Wrapper = styled.span`
   display: grid;
   padding: 1rem;
+`;
+
+const GemaäldeWrapper = styled.span`
+  display: grid;
+  justify-content: space-between;
+`;
+const Gemaälde = styled(Image)`
+  width: 10rem;
+  height: 10rem;
+  object-fit: contain;
+`;
+
+const Gemaälde1 = styled(Gemaälde)`
+  display: grid;
+  grid-column: 2;
+  grid-row: 2;
+`;
+
+const Gemaälde2 = styled(Gemaälde)`
+  display: grid;
+  grid-column: 1;
+  grid-row: 2;
+`;
+
+const Gemaälde3 = styled(Gemaälde)`
+  display: grid;
+  grid-column: 3;
+  grid-row: 2;
 `;
