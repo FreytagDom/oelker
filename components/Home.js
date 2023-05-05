@@ -50,6 +50,7 @@ const Gemaälde = styled(Image)`
   height: 10rem;
   object-fit: contain;
   gap: 2rem;
+  justify-content: space-around;
 `;
 
 const Gemaälde1 = styled(Gemaälde)`
