@@ -35,7 +35,6 @@ const NavbarHead = styled.section`
   z-index: 2;
   background-color: cadetblue;
   position: fixed;
-  position: sticky;
 `;
 
 const Navigation = styled.nav`

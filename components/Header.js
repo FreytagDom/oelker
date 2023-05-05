@@ -17,4 +17,5 @@ const Headline = styled.h1`
   display: grid;
   width: 100%;
   padding-bottom: 1.5rem;
+  margin-top: 7rem;
 `;
