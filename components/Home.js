@@ -42,18 +42,30 @@ const Wrapper = styled.span`
 
 const GemaäldeWrapper = styled.span`
   display: grid;
-  justify-content: space-between;
+  justify-content: space-evenly;
 `;
+
 const Gemaälde = styled(Image)`
   width: 10rem;
   height: 10rem;
   object-fit: contain;
+  gap: 2rem;
 `;
 
 const Gemaälde1 = styled(Gemaälde)`
+  @media only screen and (min-device-width: 480px) {
+    grid-column: 2;
+    grid-row: 2;
+  }
+  @media (max-width: 600px) {
+    .grid {
+      width: 80%;
+      flex-direction: column;
+      grid-column: 2;
+      grid-row: 2;
+    }
+  }
   display: grid;
-  grid-column: 2;
-  grid-row: 2;
 `;
 
 const Gemaälde2 = styled(Gemaälde)`
