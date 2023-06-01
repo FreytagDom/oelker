@@ -34,13 +34,28 @@ const Text = styled.p`
   font-size: 1rem;
   margin-left: 2rem;
   margin-right: 2rem;
+  padding: 1rem;
+  border-bottom: 0.4rem solid;
+  border-left: 0.4rem solid;
+  border-right: 0.4rem solid;
+  border-radius: 2rem;
+  border-color: grey;
 `;
 
-const Infos = styled.h2`
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+const Infos = styled.h1`
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #006b91;
   margin-left: 1rem;
   margin-right: 1rem;
   font-size: 1.4rem;
+  text-align: center; */
+  color: chocolate;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   text-align: center;
+  z-index: 1;
+  position: static;
+  display: grid;
+  width: 100%;
+  padding-bottom: 1.5rem;
+  margin-top: 7rem;
 `;

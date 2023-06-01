@@ -16,6 +16,10 @@ export default function Navbar() {
         <LinkWrapper href="/myBooks" passHref>
           <Tags>Meine Bücher</Tags>
         </LinkWrapper>
+
+        <LinkWrapper href="/impressum" passHref>
+          <Tags>Impressum</Tags>
+        </LinkWrapper>
       </Navigation>
     </NavbarHead>
   );

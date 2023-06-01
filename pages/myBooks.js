@@ -7,7 +7,7 @@ export default function MyBooks() {
   return (
     <>
       <Wrapper>
-        <H3>Meine Bücher</H3>
+        <H1>Meine Bücher</H1>
         <Veröffentlichungen>
           Veröffentlichungen:
           <br /> Kanon der Literatur 2014 - ISBN 9783932443299 <br />
@@ -32,14 +32,21 @@ const Section = styled.section`
   align-items: start;
 `;
 
-const H3 = styled.h3`
+const H1 = styled.h1`
   text-decoration: underline;
   font-size: 1rem;
   color: midnightblue;
   font-family: Georgia, "Times New Roman", Times, serif;
-  text-align: center;
+  /* text-align: center;
   display: grid;
-  padding-top: 2rem;
+  padding-top: 2rem; */
+  text-align: center;
+  z-index: 1;
+  position: static;
+  display: grid;
+  width: 100%;
+  padding-bottom: 1.5rem;
+  margin-top: 7rem;
 `;
 const Text = styled.p`
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;

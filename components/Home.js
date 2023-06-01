@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import Image from "next/image";
+import Header from "@/components/Header";
 import oelker_leseprobe from "../public/oelker_leseprobe.jpg";
 import oelker_leseprobe1 from "../public/oelker_leseprobe1.jpg";
 import oelker_leseprobe2 from "../public/oelker_leseprobe2.jpg";
@@ -7,6 +8,7 @@ import oelker_leseprobe2 from "../public/oelker_leseprobe2.jpg";
 export default function Homepage() {
   return (
     <>
+      <Header />
       <Wrapper>
         <Text>
           Lieber Besucher, ich lade Sie ein den Kosmos meiner Gedanken zu
