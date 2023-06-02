@@ -18,11 +18,11 @@ export default function Homepage() {
           Romantik, etwas Sehnsucht und immer wieder ein Nachdenken über den
           eigenen Weg zum Glück und zur Selbsterkenntnis.
         </Text>
-        <GemaäldeWrapper>
-          <Gemaälde1 src={oelker_leseprobe} alt="Gemälde" />
-          <Gemaälde2 src={oelker_leseprobe1} alt="Gemälde" />
-          <Gemaälde3 src={oelker_leseprobe2} alt="Gemälde" />
-        </GemaäldeWrapper>
+        <GemäldeWrapper>
+          <Gemälde1 src={oelker_leseprobe} alt="Gemälde" />
+          <Gemälde2 src={oelker_leseprobe1} alt="Gemälde" />
+          <Gemälde3 src={oelker_leseprobe2} alt="Gemälde" />
+        </GemäldeWrapper>
       </Wrapper>
     </>
   );
@@ -42,12 +42,12 @@ const Wrapper = styled.span`
   padding: 1rem;
 `;
 
-const GemaäldeWrapper = styled.span`
+const GemäldeWrapper = styled.span`
   display: grid;
   justify-content: space-evenly;
 `;
 
-const Gemaälde = styled(Image)`
+const Gemälde = styled(Image)`
   width: 10rem;
   height: 10rem;
   object-fit: contain;
@@ -56,7 +56,7 @@ const Gemaälde = styled(Image)`
   justify-content: space-around;
 `;
 
-const Gemaälde1 = styled(Gemaälde)`
+const Gemälde1 = styled(Gemälde)`
   @media only screen and (min-device-width: 480px) {
     grid-column: 2;
     grid-row: 2;
@@ -72,13 +72,13 @@ const Gemaälde1 = styled(Gemaälde)`
   display: grid;
 `;
 
-const Gemaälde2 = styled(Gemaälde)`
+const Gemälde2 = styled(Gemälde)`
   display: grid;
   grid-column: 1;
   grid-row: 2;
 `;
 
-const Gemaälde3 = styled(Gemaälde)`
+const Gemälde3 = styled(Gemälde)`
   display: grid;
   grid-column: 3;
   grid-row: 2;
