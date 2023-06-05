@@ -1,11 +1,84 @@
 import styled from "styled-components";
 import Link from "next/link";
+import Burger from "./Burger";
+import { slide as Menu } from "react-burger-menu";
+import React from "react";
+
+// const Nav = styled.nav`
+//   width: 100%;
+//   height: 55px;
+//   /* border-bottom: 2px solid #f1f1f1; */
+//   /* padding: 0 20px; */
+//   display: flex;
+//   justify-content: space-between;
+//   .logo {
+//     padding: 15px 0;
+//   }
+// `;
+
+// export default function Navbar() {
+//   return (
+//     <Nav>
+//       <div className="logo"></div>
+//       <Burger />
+//     </Nav>
+//   );
+// }
 
 export default function Navbar() {
+  class ParentComponent extends React.Component {
+    constructor(props) {
+      super(props);
+      this.state = {
+        menuOpen: false,
+      };
+    }
+
+    handleStateChange(state) {
+      this.setState({ menuOpen: state.isOpen });
+    }
+
+    closeMenu() {
+      this.setState({ menuOpen: false });
+    }
+
+    toggleMenu() {
+      this.setState((state) => ({ menuOpen: !state.menuOpen }));
+    }
+
+    render() {
+      return (
+        <div>
+          <Menu
+            isOpen={this.state.menuOpen}
+            onStateChange={(state) => this.handleStateChange(state)}
+          >
+            <LinkWrapper href="/" passHref>
+              <Tags>Home</Tags>
+            </LinkWrapper>
+
+            <LinkWrapper href="/about" passHref>
+              <Tags>About</Tags>
+            </LinkWrapper>
+
+            <LinkWrapper href="/myBooks" passHref>
+              <Tags>Meine Bücher</Tags>
+            </LinkWrapper>
+
+            <LinkWrapper href="/impressum" passHref>
+              <Tags>Impressum</Tags>
+            </LinkWrapper>
+          </Menu>
+          <Burger onClick={() => this.toggleMenu()} />
+        </div>
+      );
+    }
+  }
   return (
     <NavbarHead>
+      <ParentComponent />
       <Navigation>
-        <LinkWrapper href="/" passHref>
+        {/* <LinkWrapper href="/" passHref>
           <Tags>Home</Tags>
         </LinkWrapper>
 
@@ -19,7 +92,7 @@ export default function Navbar() {
 
         <LinkWrapper href="/impressum" passHref>
           <Tags>Impressum</Tags>
-        </LinkWrapper>
+        </LinkWrapper> */}
       </Navigation>
     </NavbarHead>
   );

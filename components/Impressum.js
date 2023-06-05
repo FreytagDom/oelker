@@ -5,7 +5,7 @@ export default function Impressum() {
     <>
       <Wrapper>
         <H1>Impressum</H1>
-        <Text>Kontakt: Karl_Christian Oelker</Text>
+        <Text>Kontakt: Karl-Christian Oelker</Text>
 
         <Text>Email: kc-oelker@gmx.de</Text>
       </Wrapper>
