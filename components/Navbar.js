@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import Link from "next/link";
 import Burger from "./Burger";
-import { slide as Menu } from "react-burger-menu";
+// import { slide as Menu } from "react-burger-menu";
 import React from "react";
 
 // const Nav = styled.nav`
@@ -49,7 +49,7 @@ export default function Navbar() {
     render() {
       return (
         <div>
-          <Menu
+          {/* <Menu
             isOpen={this.state.menuOpen}
             onStateChange={(state) => this.handleStateChange(state)}
           >
@@ -68,7 +68,7 @@ export default function Navbar() {
             <LinkWrapper href="/impressum" passHref>
               <Tags>Impressum</Tags>
             </LinkWrapper>
-          </Menu>
+          </Menu> */}
           <Burger onClick={() => this.toggleMenu()} />
         </div>
       );
