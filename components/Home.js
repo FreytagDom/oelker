@@ -30,7 +30,7 @@ export default function Homepage() {
 
 const Text = styled.p`
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  color: darkblue;
+  color: black;
   font-size: 1rem;
   margin-left: 2rem;
   margin-right: 2rem;
