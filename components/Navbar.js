@@ -1,29 +1,10 @@
 import styled from "styled-components";
-import Link from "next/link";
+
 import Burger from "./Burger";
-// import { slide as Menu } from "react-burger-menu";
+
 import React from "react";
 
-// const Nav = styled.nav`
-//   width: 100%;
-//   height: 55px;
-//   /* border-bottom: 2px solid #f1f1f1; */
-//   /* padding: 0 20px; */
-//   display: flex;
-//   justify-content: space-between;
-//   .logo {
-//     padding: 15px 0;
-//   }
-// `;
 
-// export default function Navbar() {
-//   return (
-//     <Nav>
-//       <div className="logo"></div>
-//       <Burger />
-//     </Nav>
-//   );
-// }
 
 export default function Navbar() {
   class ParentComponent extends React.Component {
@@ -48,7 +29,7 @@ export default function Navbar() {
 
     render() {
       return (
-        <div>
+        <BurgerWrapper>
           {/* <Menu
             isOpen={this.state.menuOpen}
             onStateChange={(state) => this.handleStateChange(state)}
@@ -70,7 +51,7 @@ export default function Navbar() {
             </LinkWrapper>
           </Menu> */}
           <Burger onClick={() => this.toggleMenu()} />
-        </div>
+        </BurgerWrapper>
       );
     }
   }
@@ -107,35 +88,39 @@ const NavbarHead = styled.section`
   display: grid;
   top: 0;
   width: 100%;
-  opacity: 0.8;
+  opacity: 0.9;
   height: 4rem;
   z-index: 2;
-  background-color: cadetblue;
+  background-color: lavender;
   position: fixed;
 `;
 
 const Navigation = styled.nav`
   display: grid;
   font-size: 1.1rem;
-  color: darkcyan;
+  color: lavender;
   justify-content: space-evenly;
   z-index: 2;
   position: fixed;
 `;
 
-const Tags = styled.p`
-  margin: 5px 20px;
-  font-size: 1.1rem;
-  color: black;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  display: grid;
-  z-index: 2;
+const BurgerWrapper = styled.div`
+display: grid;
 `;
 
-const LinkWrapper = styled(Link)`
-  padding-top: 1rem;
-  display: grid;
-  text-decoration: none;
-  grid-row: 3;
-  position: relative;
-`;
+// const Tags = styled.p`
+//   margin: 5px 20px;
+//   font-size: 1.1rem;
+//   color: black;
+//   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+//   display: grid;
+//   z-index: 2;
+// `;
+
+// const LinkWrapper = styled(Link)`
+//   padding-top: 1rem;
+//   display: grid;
+//   text-decoration: none;
+//   grid-row: 3;
+//   position: relative;
+// `;

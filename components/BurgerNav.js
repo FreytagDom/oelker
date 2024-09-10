@@ -41,18 +41,18 @@ const Ul = styled.ul`
   } */
   @media (max-width: 768px) {
     flex-flow: column nowrap;
-    background-color: #82ffff;
+    background-color: lavender;
     position: fixed;
     transform: ${({ open }) => (open ? "translateX(0)" : "translateX(100%)")};
     top: 0;
     right: 0;
-    height: 20rem;
-    width: 15rem;
+    height: 50rem;
+    width: 13rem;
     padding-top: 3.5rem;
     margin-top: 4rem;
     transition: transform 0.3s ease-in-out;
     opacity: 0.9;
-    border-radius: 15%;
+   
     li {
       color: #fff;
     }
