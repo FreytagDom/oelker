@@ -1,17 +1,37 @@
 import styled from "styled-components";
 
 export default function Impressum() {
+  const handleEmailButtonClick = () => {
+    window.location.href = 'mailto:insulinapp@web.de';
+  };
   return (
     <>
       <Wrapper>
         <H1>Impressum</H1>
-        <Text>Kontakt: Karl-Christian Oelker</Text>
+        <Text>
+        Inhaltlich verantwortlich i.S. des 
+        Presserechtes bzw. des Telemediengesetzes (§ 5 TMG): Karl-Christian Oelker, Bremen.<br/><br/>
 
-        <Text>Email: kc-oelker@gmx.de</Text>
+        Haftungsausschluss<br/><br/>
+
+        Trotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine Haftung für die Inhalte externer Links. Für den Inhalt der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich.<br/><br/>
+
+        Für in vorliegenden Inhalten verwendete Warenzeichen, Handelsnamen und Gebrauchsnamen, auch wenn diese nicht als solche gekennzeichnet sind, gelten die entsprechenden Schutzbestimmungen.</Text>
+        <Text>Email:
+        <EmailButton onClick={handleEmailButtonClick}>
+           kc-oelker@gmx.de
+        </EmailButton>
+        </Text>
       </Wrapper>
     </>
   );
 }
+
+
+const Wrapper = styled.span`
+  display: grid;
+  padding: 1rem;
+`;
 
 const H1 = styled.h1`
   text-decoration: underline;
@@ -29,15 +49,22 @@ const H1 = styled.h1`
 
 const Text = styled.p`
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  color: darkblue;
-  font-size: 1.5rem;
+  color: black;
+  font-size: 1rem;
   margin-left: 2rem;
   margin-right: 2rem;
   padding: 1rem;
   text-align: center;
 `;
 
-const Wrapper = styled.span`
-  display: grid;
-  padding: 1rem;
+const EmailButton = styled.button`
+  background: transparent;
+  font-size: 1rem;
+  align-items: center;
+  text-align: center;
+  border: none;
+  outline: none !important;
+  cursor: pointer;
+  bottom: 2rem;
+  color: darkblue;
 `;
