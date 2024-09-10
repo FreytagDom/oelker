@@ -14,7 +14,7 @@ export default function Vita() {
         hatte ich Purzel, meinen Hund. Zum Feind hatte ich einen stolzen Hahn,
         der glaubte seine Hühner verteidigen zu müssen. Auf meinem
         Lieblingspferd Maxe bin ich zur Weide geritten und teilte mit dem
-        Pflugschaar die Erde. Im Sommer habe ich das Kornfeld gemäht und die
+        Pflugschar die Erde. Im Sommer habe ich das Kornfeld gemäht und die
         Garben als Stiegen zum Trocknen aufgestellt. Im Herbst habe ich mir an
         den Kartoffelfeuern die Hände gewärmt. Ich bin gefallen und wieder
         aufgestanden, habe mir den Staub aus den Kleidern geklopft und neue Wege
@@ -30,7 +30,7 @@ export default function Vita() {
 
 const Text = styled.p`
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  color: darkblue;
+  color: black;
   font-size: 1rem;
   margin-left: 2rem;
   margin-right: 2rem;

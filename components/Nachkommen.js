@@ -5,7 +5,7 @@ const NachkommenWidget = () => {
     <iframe
     src="/Nachkommen.html"
     style={{ width: '100%', height: '600px', border: 'none' }}
-    sandbox="allow-scripts allow-same-origin"
+     sandbox="allow-scripts allow-same-origin allow-popups"
   />
   );
 };
