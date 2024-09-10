@@ -8,7 +8,7 @@ export default function Impressum() {
     <>
       <Wrapper>
         <H1>Impressum</H1>
-        <Text>"
+        <Text>
         Inhaltlich verantwortlich i.S. des 
         Presserechtes bzw. des Telemediengesetzes (§ 5 TMG): Karl-Christian Oelker, Bremen.<br/><br/>
 
@@ -16,7 +16,7 @@ export default function Impressum() {
 
         Trotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine Haftung für die Inhalte externer Links. Für den Inhalt der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich.<br/><br/>
 
-        Für in vorliegenden Inhalten verwendete Warenzeichen, Handelsnamen und Gebrauchsnamen, auch wenn diese nicht als solche gekennzeichnet sind, gelten die entsprechenden Schutzbestimmungen."</Text>
+        Für in vorliegenden Inhalten verwendete Warenzeichen, Handelsnamen und Gebrauchsnamen, auch wenn diese nicht als solche gekennzeichnet sind, gelten die entsprechenden Schutzbestimmungen.</Text>
         <Text>Email:
         <EmailButton onClick={handleEmailButtonClick}>
            kc-oelker@gmx.de
