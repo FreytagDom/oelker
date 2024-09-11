@@ -15,11 +15,11 @@ export default function Impressum() {
         <EmailButton onClick={handleEmailButtonClick}>
            kc-oelker@gmx.de
         </EmailButton><br/><br/>
-        
+        </Text>
+        <Text>
         <H3>
         Haftungsausschluss
-        </H3><br/>
-
+        </H3>
         Trotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine Haftung für die Inhalte externer Links.
         Für den Inhalt der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich.<br/>
         Für in vorliegenden Inhalten verwendete Warenzeichen, Handelsnamen und Gebrauchsnamen, 
@@ -27,7 +27,7 @@ export default function Impressum() {
         <Text>
         <H3>
         Haftung für Links:
-        </H3><br/>
+        </H3>
         Meine Seite enthält Links zu externen Websites Dritter, auf deren Inhalte ich keinen Einfluss haben.<br/>
         Deshalb kann ich für diese fremden Inhalte auch keine Gewähr übernehmen.<br/>
         Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich.
