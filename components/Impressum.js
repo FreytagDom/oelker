@@ -11,16 +11,26 @@ export default function Impressum() {
         <Text>
         Inhaltlich verantwortlich i.S. des 
         Presserechtes bzw. des Telemediengesetzes (§ 5 TMG): Karl-Christian Oelker, Bremen.<br/><br/>
-
-        Haftungsausschluss<br/><br/>
-
-        Trotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine Haftung für die Inhalte externer Links. Für den Inhalt der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich.<br/><br/>
-
-        Für in vorliegenden Inhalten verwendete Warenzeichen, Handelsnamen und Gebrauchsnamen, auch wenn diese nicht als solche gekennzeichnet sind, gelten die entsprechenden Schutzbestimmungen.</Text>
-        <Text>Email:
+        Email:
         <EmailButton onClick={handleEmailButtonClick}>
            kc-oelker@gmx.de
-        </EmailButton>
+        </EmailButton><br/><br/>
+        
+        <H3>
+        Haftungsausschluss
+        </H3><br/>
+
+        Trotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine Haftung für die Inhalte externer Links.
+        Für den Inhalt der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich.<br/>
+        Für in vorliegenden Inhalten verwendete Warenzeichen, Handelsnamen und Gebrauchsnamen, 
+        auch wenn diese nicht als solche gekennzeichnet sind, gelten die entsprechenden Schutzbestimmungen.</Text>
+        <Text>
+        <H3>
+        Haftung für Links:
+        </H3><br/>
+        Meine Seite enthält Links zu externen Websites Dritter, auf deren Inhalte ich keinen Einfluss haben.<br/>
+        Deshalb kann ich für diese fremden Inhalte auch keine Gewähr übernehmen.<br/>
+        Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich.
         </Text>
       </Wrapper>
     </>
@@ -68,3 +78,17 @@ const EmailButton = styled.button`
   bottom: 2rem;
   color: darkblue;
 `;
+
+const H3 = styled.h3`
+  text-decoration: underline;
+  font-size: 1rem;
+  color: black;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  z-index: 1;
+  position: static;
+  display: grid;
+  width: 100%;
+  padding-bottom: 1.5rem;
+ 
+`
