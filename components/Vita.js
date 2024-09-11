@@ -19,7 +19,7 @@ export default function Vita() {
         Kartoffelfeuer die Hände gewärmt.<br/> Ich bin gefallen und wieder
         aufgestanden, habe mir den Staub aus den Kleidern geklopft und neue Wege
         beschritten. <br/>Im Amazonas habe ich rosa Delfine und fliegende Fische
-        beobachtet, im Urwald aus Bambusholz eine Flöte geschnittenn zu Fuß die
+        beobachtet, im Urwald aus Bambusholz eine Flöte geschnitten, zu Fuß die
         Golden Gate Bridge überquert und am Sankt - Lorenz -Strom die Wale
         beobachtet.<br/> Schon immer habe ich mir im Traum Geschichten erzählt, die
         ich jetzt aufschreibe.
