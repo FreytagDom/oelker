@@ -8,18 +8,18 @@ export default function Vita() {
         Als ich noch im Gitterbett lag, tat sich der
         Himmel über mir auf, grenzenlos. Später habe ich mit meinen Augen die
         Sterne gezählt, habe in Gedanken neue Welten entdeckt und bin an die
-        Grenze des Univer-sums gereist, habe im Großen das Größte gesucht, um im
+        Grenze des Universum gereist, habe im Großen das Größte gesucht, um im
         Kleinen das Kleinste zu finden. Es flüsterte mir zu: Vielleicht werde
         ich Dir fremd bleiben, aber suche mich und finde meine Rätsel.<br/> Als Junge
         hatte ich Purzel, meinen Hund. Zum Feind hatte ich einen stolzen Hahn,
         der glaubte seine Hühner verteidigen zu müssen.<br/> Auf meinem
         Lieblingspferd Maxe bin ich zur Weide geritten und teilte mit dem
         Pflugschar die Erde. Im Sommer habe ich das Kornfeld gemäht und die
-        Garben als Stiegen zum Trocknen aufgestellt. Im Herbst habe ich mir an
-        den Kartoffelfeuern die Hände gewärmt.<br/> Ich bin gefallen und wieder
+        Garben als Stiegen zum Trocknen aufgestellt. Im Herbst habe ich mir am
+        Kartoffelfeuer die Hände gewärmt.<br/> Ich bin gefallen und wieder
         aufgestanden, habe mir den Staub aus den Kleidern geklopft und neue Wege
         beschritten. <br/>Im Amazonas habe ich rosa Delfine und fliegende Fische
-        beobachtet. Im Urwald aus Bambusholz eine Flöte geschnitten. Zu Fuß die
+        beobachtet, im Urwald aus Bambusholz eine Flöte geschnittenn zu Fuß die
         Golden Gate Bridge überquert und am Sankt - Lorenz -Strom die Wale
         beobachtet.<br/> Schon immer habe ich mir im Traum Geschichten erzählt, die
         ich jetzt aufschreibe.

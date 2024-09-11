@@ -11,7 +11,7 @@ export default function Homepage() {
       <Header />
       <Wrapper>
         <Text>
-          Lieber Besucher, ich lade Sie ein den Kosmos meiner Gedanken zu
+          Lieber Besucher, ich lade Dich ein den Kosmos meiner Gedanken zu
           betreten. Sie fragen sich, was Sie finden werden? Etwas kann ich
           verraten: Gedichte und schöne Bilder. Gedanken über die Zukunft und
           Erkenntnisse aus der Gegenwart. Erstaunliches und ganz Banales. Etwas
