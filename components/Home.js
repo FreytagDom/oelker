@@ -90,11 +90,13 @@ const Text = styled.p`
   margin-left: 2rem;
   margin-right: 2rem;
   padding: 2rem;
+  max-width: 100vh;
 `;
 
 const Wrapper = styled.span`
   display: grid;
   padding: 1rem;
+  justify-content: center;
 `;
 
 const GemäldeWrapper = styled.span`
@@ -160,7 +162,7 @@ const StyledImage = styled.img`
   position: absolute;
   width: 65%;
   height: auto;
-  max-width: 48rem;
+  max-width: 40rem;
   max-height: 100%;
   opacity: 0;
   transition: opacity 4s ease-in-out;
