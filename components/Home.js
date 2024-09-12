@@ -158,7 +158,7 @@ const GemäldeWrapper = styled.span`
 
 const StyledImage = styled.img`
   position: absolute;
-  width: 30%;
+  width: 45%;
   height: auto;
   max-width: 19rem;
   max-height: 60%;
