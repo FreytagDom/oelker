@@ -163,7 +163,7 @@ const StyledImage = styled.img`
   max-width: 10rem;
   max-height: 60%;
   opacity: 0;
-  transition: opacity 3s ease-in-out;
+  transition: opacity 4s ease-in-out;
 
   &.active {
     opacity: 1;
