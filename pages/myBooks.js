@@ -23,10 +23,10 @@ export default function MyBooks() {
           Homo Technicus 2022 - ISBN-13: 9783756295265
         </Veröffentlichungen> */}
         <Section>
-        <NachkommenWidget id="bodShopWidget_3337720_print" class="bodShopWidget" />
-        <LebenslinienWidget id="bodShopWidget_2953912_print" class="bodShopWidget" />
         <TechnicusWidget id="bodShopWidget_3957865_print" class="bodShopWidget" />
+        <NachkommenWidget id="bodShopWidget_3337720_print" class="bodShopWidget" />
         <KlopfzeichenWidget id="bodShopWidget_2956245_print" class="bodShopWidget" />
+        <LebenslinienWidget id="bodShopWidget_2953912_print" class="bodShopWidget" />
           {/* <Lebenslinien /> */}
           {/* <Klopfzeichen />
           <Technicus /> */}
