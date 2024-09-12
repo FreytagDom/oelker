@@ -106,7 +106,7 @@ const GemäldeWrapper = styled.span`
   align-items: flex-start;
   overflow: hidden;
   width: 100%;
-  height: 60vh;
+  height: 40vh;
 `;
 
 // const Gemälde = styled(Image)`
@@ -158,9 +158,9 @@ const GemäldeWrapper = styled.span`
 
 const StyledImage = styled.img`
   position: absolute;
-  width: 25%;
+  width: 30%;
   height: auto;
-  max-width: 10rem;
+  max-width: 19rem;
   max-height: 60%;
   opacity: 0;
   transition: opacity 4s ease-in-out;
