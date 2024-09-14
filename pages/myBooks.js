@@ -43,13 +43,8 @@ const Wrapper = styled.span`
 `;
 
 const H1 = styled.h1`
-  text-decoration: underline;
-  font-size: 1rem;
-  color: black;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  /* text-align: center;
-  display: grid;
-  padding-top: 2rem; */
+ color: chocolate;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   text-align: center;
   z-index: 1;
   position: static;
@@ -57,6 +52,20 @@ const H1 = styled.h1`
   width: 100%;
   padding-bottom: 1.5rem;
   margin-top: 7rem;
+  /* text-decoration: underline;
+  font-size: 1rem;
+  color: black;
+  font-family: Georgia, "Times New Roman", Times, serif; */
+  /* text-align: center;
+  display: grid;
+  padding-top: 2rem; */
+  /* text-align: center;
+  z-index: 1;
+  position: static;
+  display: grid;
+  width: 100%;
+  padding-bottom: 1.5rem;
+  margin-top: 7rem; */
 `;
 
 const Section = styled.section`
