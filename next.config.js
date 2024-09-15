@@ -4,9 +4,9 @@ const nextConfig = {
   // output: 'export',
   distDir: 'all-inkl',
  
-  images: {
-    unoptimized: true,
-  },
+  // images: {
+  //   unoptimized: true,
+  // },
 };
 
 module.exports = nextConfig;
