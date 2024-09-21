@@ -8,7 +8,6 @@ export default function Home() {
         <title>Karl-Christian Oelker</title>
         <meta name="description" content="Website von Karl-Christian Oelker" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
       <Homepage />
     </>
