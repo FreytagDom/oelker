@@ -36,9 +36,6 @@ const Ul = styled.ul`
   list-style: none;
   display: flex;
   flex-flow: row nowrap;
-  /* li {
-    padding: 18px 10px;
-  } */
   @media (max-width: 768px) {
     flex-flow: column nowrap;
     background-color: lavender;
@@ -57,25 +54,6 @@ const Ul = styled.ul`
       color: #fff;
     }
   }
-
-  /* @media (min-width: 769px) {
-    justify-content: space-evenly;
-    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-    text-align: center;
-    justify-items: center;
-    align-content: center;
-    display: flex;
-    top: 0;
-    width: 100%;
-    opacity: 0.8;
-    height: 4rem;
-    background-color: cadetblue;
-    font-size: 1.1rem;
-    color: darkcyan;
-    z-index: 2;
-    position: fixed;
-    margin-top: 0;
-  } */
 `;
 
 const Tags = styled.p`
