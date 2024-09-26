@@ -53,17 +53,6 @@ const H1 = styled.h1`
   width: 100%;
   padding-bottom: 1.5rem;
   margin-top: 7rem;
-  /* text-decoration: underline;
-  font-size: 1.5rem;
-  color: chocolate;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  text-align: center;
-  z-index: 1;
-  position: static;
-  display: grid;
-  width: 100%;
-  padding-bottom: 1.5rem;
-  margin-top: 7rem; */
 `;
 
 const Text = styled.p`

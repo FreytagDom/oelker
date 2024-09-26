@@ -28,6 +28,18 @@ export default function Vita() {
   );
 }
 
+const Infos = styled.h1`
+  color: chocolate;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+  z-index: 1;
+  position: static;
+  display: grid;
+  width: 100%;
+  padding-bottom: 1.5rem;
+  margin-top: 7rem;
+`;
+
 const Text = styled.p`
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   color: black;
@@ -42,20 +54,4 @@ const Text = styled.p`
   border-color: grey;
 `;
 
-const Infos = styled.h1`
-  /* font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: #006b91;
-  margin-left: 1rem;
-  margin-right: 1rem;
-  font-size: 1.4rem;
-  text-align: center; */
-  color: chocolate;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  text-align: center;
-  z-index: 1;
-  position: static;
-  display: grid;
-  width: 100%;
-  padding-bottom: 1.5rem;
-  margin-top: 7rem;
-`;
+

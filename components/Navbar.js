@@ -1,9 +1,6 @@
 import styled from "styled-components";
-
 import Burger from "./Burger";
-
 import React from "react";
-
 
 
 export default function Navbar() {
@@ -30,26 +27,6 @@ export default function Navbar() {
     render() {
       return (
         <BurgerWrapper>
-          {/* <Menu
-            isOpen={this.state.menuOpen}
-            onStateChange={(state) => this.handleStateChange(state)}
-          >
-            <LinkWrapper href="/" passHref>
-              <Tags>Home</Tags>
-            </LinkWrapper>
-
-            <LinkWrapper href="/about" passHref>
-              <Tags>About</Tags>
-            </LinkWrapper>
-
-            <LinkWrapper href="/myBooks" passHref>
-              <Tags>Meine Bücher</Tags>
-            </LinkWrapper>
-
-            <LinkWrapper href="/impressum" passHref>
-              <Tags>Impressum</Tags>
-            </LinkWrapper>
-          </Menu> */}
           <Burger onClick={() => this.toggleMenu()} />
         </BurgerWrapper>
       );
@@ -59,21 +36,6 @@ export default function Navbar() {
     <NavbarHead>
       <ParentComponent />
       <Navigation>
-        {/* <LinkWrapper href="/" passHref>
-          <Tags>Home</Tags>
-        </LinkWrapper>
-
-        <LinkWrapper href="/about" passHref>
-          <Tags>About</Tags>
-        </LinkWrapper>
-
-        <LinkWrapper href="/myBooks" passHref>
-          <Tags>Meine Bücher</Tags>
-        </LinkWrapper>
-
-        <LinkWrapper href="/impressum" passHref>
-          <Tags>Impressum</Tags>
-        </LinkWrapper> */}
       </Navigation>
     </NavbarHead>
   );
@@ -108,19 +70,3 @@ const BurgerWrapper = styled.div`
 display: grid;
 `;
 
-// const Tags = styled.p`
-//   margin: 5px 20px;
-//   font-size: 1.1rem;
-//   color: black;
-//   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-//   display: grid;
-//   z-index: 2;
-// `;
-
-// const LinkWrapper = styled(Link)`
-//   padding-top: 1rem;
-//   display: grid;
-//   text-decoration: none;
-//   grid-row: 3;
-//   position: relative;
-// `;

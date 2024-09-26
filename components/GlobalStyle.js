@@ -12,7 +12,6 @@ main {
 body {
     margin: 0;
     background: #ffffff;
-    /* background: linear-gradient(to bottom, white, aqua) ; */
    display: block;
     @media only screen and (min-device-width: 480px){
     gap: 4rem;

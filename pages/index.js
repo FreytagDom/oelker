@@ -16,7 +16,7 @@ export default function Home() {
         />
         <meta
           name="description"
-          content="Lebenslinien, Klopfzeichen, Homos Technicus, Nachkommen"
+          content="Lebenslinien | Klopfzeichen | Homos Technicus | Nachkommen | Oelker"
         />
       </Head>
       <Homepage />

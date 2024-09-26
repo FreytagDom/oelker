@@ -1,26 +1,27 @@
 import styled from "styled-components";
 import Vita from "../components/Vita";
+import Head from "next/head";
 
 export default function AboutMy() {
   return (
     <>
+    <Head>
+    <meta
+          name="description"
+          content="Hier erfahren Sie etwas zu meiner Person und was mich bewegt hat Bücher zu schreiben."
+        />
+        <meta
+          name="description"
+          content="Bücher | Vita | Oelker | Kartoffelfeuer | Pferd | Gitterbett"
+        />
+    </Head>
       <Wrapper>
-        {/* <VitaWrapper> */}
         <Vita />
-        {/* </VitaWrapper> */}
       </Wrapper>
     </>
   );
 }
 
-// const VitaWrapper = styled.section`
-//   /* padding: 1rem;
-//   border-bottom: 0.4rem solid;
-//   border-left: 0.4rem solid;
-//   border-right: 0.4rem solid;
-//   border-radius: 2rem;
-//   border-color: grey; */
-// `;
 
 const Wrapper = styled.span`
   display: grid;
